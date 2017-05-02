@@ -1,0 +1,35 @@
+header {
+	width: 100%;
+
+	.branding {
+		width: 100%;
+		margin: 25px 0;
+
+		img {
+			display: block;
+			margin: auto;
+		}
+	}
+	nav {
+		margin-bottom: 25px;
+		font-size: 12px;
+		ul {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			background-color: #555;
+
+			li {
+				padding: 10px 5px;
+				color: white;
+
+				&:last-child {
+					background-color: darkslategray;
+					border-left: 2px solid white;
+				}
+			}
+
+		}
+	}
+} 

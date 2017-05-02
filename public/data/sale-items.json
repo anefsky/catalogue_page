@@ -1,0 +1,24 @@
+[{
+	"id": "101",
+	"description": "Classic Apron, French Blue",
+	"smallImage": "product-small-a.jpg",
+	"largeImage": "product-large-a.jpg"
+}, 
+{
+	"id": "102",
+	"description": "Classic Apron, Dark Striped",
+	"smallImage": "product-small-b.jpg",
+	"largeImage": "product-large-b.jpg"
+}, 
+{
+	"id": "103",
+	"description": "Classic Apron, Light Striped",
+	"smallImage": "product-small-c.jpg",
+	"largeImage": "product-large-c.jpg"
+}, 
+{
+	"id": "104",
+	"description": "Classic Apron, Red Striped",
+	"smallImage": "product-small-d.jpg",
+	"largeImage": "product-large-d.jpg"
+}]

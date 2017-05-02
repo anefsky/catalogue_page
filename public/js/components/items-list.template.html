@@ -1,0 +1,14 @@
+<div class="wrap">
+    <div class="left-panel">
+        <image-swapper></image-swapper>
+      </div>
+
+      <div class="right-panel">
+        <img class="button-confirm" src="assets/button-add-to-cart.png" ng-click="$ctrl.doShowConfirm(true)"/>
+        <expandable-paragraphs></expandable-paragraphs>
+      </div>
+      <div class="modal-confirm" ng-show="$ctrl.showConfirm">
+		  Item added to cart!
+		  <div class="close-model" ng-click="$ctrl.doShowConfirm(false)">x</div>
+		</div>
+</div>

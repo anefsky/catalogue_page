@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogue - aprons</title>
+  <script src="https://code.angularjs.org/1.6.2/angular.js"></script>
+  <script src="https://code.angularjs.org/1.6.2/angular-route.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body ng-controller="pageController">
+ <div class="wrapper">
+  <header>
+    <nav>
+      <nav-bar></nav-bar>
+    </nav>
+  </header>
+  <main>
+    <div class="page" ng-view></div>
+  </main>
+</div>
+
+<script src="js/scripts.js"></script>
+<script src="js/components/nav-bar.component.js"></script>
+<script src="js/components/image-swapper.component.js"></script>
+<script src="js/components/expandable-paragraphs.component.js"></script>
+<script src="js/components/item-detail.component.js"></script>
+<script src="js/components/items-list.component.js"></script>
+
+</body>
+
+</html>
